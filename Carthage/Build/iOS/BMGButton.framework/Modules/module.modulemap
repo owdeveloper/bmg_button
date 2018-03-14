@@ -1,0 +1,11 @@
+framework module BMGButton {
+  umbrella header "BMGButton.h"
+
+  export *
+  module * { export * }
+}
+
+module BMGButton.Swift {
+    header "BMGButton-Swift.h"
+    requires objc
+}
